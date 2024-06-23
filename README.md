@@ -64,7 +64,8 @@ Make sure you have the following installed:
 **For Mobile:**
 ```bash
 flutter run
-
+```
 **For Web:**
+```bash
 flutter run -d chrome
 
