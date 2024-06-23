@@ -59,11 +59,12 @@ Make sure you have the following installed:
    ```bash
    flutter pub get
    
-3. **Running the project:**
-4. *For Mobile:*
-   ```bash
-   flutter run
-   
-   *For Web:*
-   ```bash
-   flutter run -d chrome
+3. ### Running the project
+
+**For Mobile:**
+```bash
+flutter run
+
+**For Web:**
+flutter run -d chrome
+
