@@ -6,4 +6,41 @@ Slash Task
 
 This project is a starting point for a Flutter application.
 
-To run this app all you need is to clone the project on your machine. After that you need to run pub get on the pubspec.yaml. Then you can run the app!
+Responsive Home Screen Flutter Project
+This Flutter project implements a responsive UI for the Home Screen that adapts seamlessly to both mobile and web platforms. The implementation follows clean architecture principles and utilizes the MVVM pattern with Bloc or Cubit for state management. The UI design is based on the provided Figma design and dummy data.
+
+Requirements
+Architecture: Follow clean architecture principles and MVVM pattern.
+State Management: Use Bloc or Cubit for state management.
+UI: Ensure the UI is responsive using appropriate layout widgets.
+Data: Fetch and display data from the provided dummy data.
+Design: Maintain design consistency as per the Figma design provided.
+Technical Details
+Responsive Design
+Use LayoutBuilder, MediaQuery, and other responsive layout widgets.
+Implement breakpoints for different screen sizes to adjust the layout accordingly.
+Flutter Widgets
+Mobile Layout: Use ListView, Column, or SingleChildScrollView.
+Web Layout: Use GridView, Row, or Expanded.
+Architecture
+Follow clean architecture principles to structure the code.
+Implement the MVVM pattern to separate concerns.
+State Management
+Use Bloc or Cubit for managing state across the application.
+Getting Started
+Prerequisites
+Flutter SDK
+Dart SDK
+IDE (Android Studio, VS Code, etc.)
+Installation
+Clone the repository:
+git clone https://github.com/Nardo2002/slash
+Navigate to the project directory:
+cd slash
+Install dependencies
+flutter pub get
+Running the project
+for mobile:
+flutter run
+for web:
+flutter run -d chrome
