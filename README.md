@@ -54,3 +54,16 @@ Make sure you have the following installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/mash3al-29/slash-internship-task
+   
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
+   
+3. **Running the project:**
+4. *For Mobile:*
+   ```bash
+   flutter run
+   
+   *For Web:*
+   ```bash
+   flutter run -d chrome
